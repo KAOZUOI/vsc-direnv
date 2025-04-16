@@ -1,13 +1,23 @@
 {
   "name": "vsc-direnv",
   "displayName": "vsc-direnv",
-  "description": "Direnv integration for VSCode",
-  "version": "0.0.1",
+  "description": "Direnv integration for VS Code",
+  "version": "1.0.0",
+  "publisher": "kozo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KAOZUOI/vsc-direnv.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "direnv",
+    "env",
+    "environment"
   ],
   "activationEvents": [
     "workspaceContains:.envrc"
